@@ -1,0 +1,17 @@
+{
+	"language": "zh-CN",
+	"defaultAuthor": "youmean",
+	"repository": "git+https://github.com/youmean-z",
+	"templates": [
+		{
+			"name": "TypeScript",
+			"value": "ts",
+			"children": [
+				{
+					"name": "ESM",
+					"value": "esm"
+				}
+			]
+		}
+	]
+}

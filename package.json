@@ -1,0 +1,29 @@
+{
+	"name": "@youmean/create-project",
+	"version": "0.0.1",
+	"description": "My simple scaffold for creating projects",
+	"type": "module",
+	"main": "./dist/index.js",
+	"files": ["dist", "README.md", "README-zh-CN.md", "templates", "templates.json"],
+	"bin": {
+		"create-project": "./dist/index.js"
+	},
+	"author": "youmean",
+	"license": "MIT",
+	"repository": "git+https://github.com/youmean-z/create-project.git",
+	"scripts": {
+		"build": "rolldown -c rolldown.config.ts",
+		"dev": "rolldown -c rolldown.config.ts --watch",
+		"start": "node --no-warnings ./dist/index.js"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@types/node": "^24.0.1",
+		"rolldown": "^1.0.0-beta.15",
+		"rolldown-plugin-dts": "^0.13.11",
+		"typescript": "^5.8.3"
+	},
+	"dependencies": {
+		"inquirer": "^12.6.3"
+	}
+}
