@@ -1,10 +1,17 @@
 {
 	"name": "@youmean/create-project",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "My simple scaffold for creating projects",
 	"type": "module",
 	"main": "./dist/index.js",
-	"files": ["dist", "README.md", "README-zh-CN.md", "LICENSE", "templates", "templates.json"],
+	"files": [
+		"dist",
+		"README.md",
+		"README-zh-CN.md",
+		"LICENSE",
+		"templates",
+		"templates.json"
+	],
 	"bin": {
 		"create-project": "./dist/index.js"
 	},
