@@ -4,6 +4,7 @@
 	"description": "{{description}}",
 	"type": "module",
 	"main": "./dist/index.js",
+	"files": ["dist", "README.md", "README-zh-CN.md", "LICENSE"],
 	"author": "{{author}}",
 	"license": "MIT",
 	"repository": "{{repository}}/{{packageName}}.git",

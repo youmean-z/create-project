@@ -1,6 +1,6 @@
 {
 	"name": "@youmean/create-project",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "My simple scaffold for creating projects",
 	"type": "module",
 	"main": "./dist/index.js",
