@@ -4,14 +4,7 @@
 	"description": "My simple scaffold for creating projects",
 	"type": "module",
 	"main": "./dist/index.js",
-	"files": [
-		"dist",
-		"README.md",
-		"README-zh-CN.md",
-		"LICENSE",
-		"templates",
-		"templates.json"
-	],
+	"files": ["dist", "README.md", "README-zh-CN.md", "LICENSE", "templates", "templates.json"],
 	"bin": {
 		"create-project": "./dist/index.js"
 	},
